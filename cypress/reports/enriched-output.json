@@ -1,0 +1,424 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": null,
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": true,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2021-09-05T05:29:40.845Z",
+  "features": [
+    {
+      "description": "I want to be able to submit quote in various Color",
+      "keyword": "Feature",
+      "name": "BDD Atlas Homepage Color Quote",
+      "line": 1,
+      "id": "24c6cef8-7d2c-47cb-a4d3-d175aefe5e94-bdd-atlas-homepage-color-quote",
+      "tags": [],
+      "uri": "Homepage.feature",
+      "elements": [
+        {
+          "id": "bdd-atlas-homepage-color-quote;i-want-to-be-able-to-submit-a-blue-quote",
+          "keyword": "Scenario",
+          "line": 6,
+          "name": "I want to be able to submit a Blue Quote",
+          "tags": [
+            {
+              "name": "@TC001",
+              "line": 5
+            },
+            {
+              "name": "@BlueColor",
+              "line": 5
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 7,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 2925000000
+              },
+              "time": "00:00:02.925"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 8,
+              "name": "I type a quote: Ayumu tenanan ora editan",
+              "result": {
+                "status": "passed",
+                "duration": 464000000
+              },
+              "time": "00:00:00.464"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 9,
+              "name": "I choose the Blue Color",
+              "result": {
+                "status": "passed",
+                "duration": 144000000
+              },
+              "time": "00:00:00.144"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 10,
+              "name": "I verify quote submitted \"Blue\" and \"Ayumu tenanan ora editan\"",
+              "result": {
+                "status": "passed",
+                "duration": 115000000
+              },
+              "time": "00:00:00.115"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 11,
+              "name": "I verify quote has been deleted : Ayumu",
+              "result": {
+                "status": "passed",
+                "duration": 122000000
+              },
+              "time": "00:00:00.122"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 3770000000,
+          "time": "00:00:03.770"
+        },
+        {
+          "id": "bdd-atlas-homepage-color-quote;scenario-outline-name:-i-want-to-be-able-to-submit-a-white-quote",
+          "keyword": "Scenario",
+          "line": 23,
+          "name": "Scenario Outline name: I want to be able to submit a White Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColor",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 222000000
+              },
+              "time": "00:00:00.222"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Ayumu tenanan ora editan",
+              "result": {
+                "status": "passed",
+                "duration": 448000000
+              },
+              "time": "00:00:00.448"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the White Color",
+              "result": {
+                "status": "passed",
+                "duration": 134000000
+              },
+              "time": "00:00:00.134"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"White\" and \"Ayumu tenanan ora editan\"",
+              "result": {
+                "status": "passed",
+                "duration": 93000000
+              },
+              "time": "00:00:00.093"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : Ayumu",
+              "result": {
+                "status": "passed",
+                "duration": 85000000
+              },
+              "time": "00:00:00.085"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 982000000,
+          "time": "00:00:00.982"
+        },
+        {
+          "id": "bdd-atlas-homepage-color-quote;scenario-outline-name:-i-want-to-be-able-to-submit-a-yellow-quote",
+          "keyword": "Scenario",
+          "line": 24,
+          "name": "Scenario Outline name: I want to be able to submit a Yellow Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColor",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 187000000
+              },
+              "time": "00:00:00.187"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Ayumu tenanan ora editan",
+              "result": {
+                "status": "passed",
+                "duration": 451000000
+              },
+              "time": "00:00:00.451"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Yellow Color",
+              "result": {
+                "status": "passed",
+                "duration": 137000000
+              },
+              "time": "00:00:00.137"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Yellow\" and \"Ayumu tenanan ora editan\"",
+              "result": {
+                "status": "passed",
+                "duration": 93000000
+              },
+              "time": "00:00:00.093"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : Ayumu",
+              "result": {
+                "status": "passed",
+                "duration": 88000000
+              },
+              "time": "00:00:00.088"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 956000000,
+          "time": "00:00:00.956"
+        },
+        {
+          "id": "bdd-atlas-homepage-color-quote;scenario-outline-name:-i-want-to-be-able-to-submit-a-cyan-quote",
+          "keyword": "Scenario",
+          "line": 25,
+          "name": "Scenario Outline name: I want to be able to submit a Cyan Quote",
+          "tags": [
+            {
+              "name": "@TC002",
+              "line": 13
+            },
+            {
+              "name": "@AllColor",
+              "line": 13
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 15,
+              "name": "I open BDD Atlas Web",
+              "result": {
+                "status": "passed",
+                "duration": 178000000
+              },
+              "time": "00:00:00.178"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 16,
+              "name": "I type a quote: Ayumu tenanan ora editan",
+              "result": {
+                "status": "passed",
+                "duration": 424000000
+              },
+              "time": "00:00:00.424"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 17,
+              "name": "I choose the Cyan Color",
+              "result": {
+                "status": "passed",
+                "duration": 132000000
+              },
+              "time": "00:00:00.132"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 18,
+              "name": "I verify quote submitted \"Cyan\" and \"Ayumu tenanan ora editan\"",
+              "result": {
+                "status": "passed",
+                "duration": 87000000
+              },
+              "time": "00:00:00.087"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then ",
+              "line": 19,
+              "name": "I verify quote has been deleted : Ayumu",
+              "result": {
+                "status": "passed",
+                "duration": 95000000
+              },
+              "time": "00:00:00.095"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 916000000,
+          "time": "00:00:00.916"
+        }
+      ],
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "93"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "osx",
+          "version": "Big Sur"
+        }
+      },
+      "scenarios": {
+        "passed": 4,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notdefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 4
+      },
+      "duration": 6624000000,
+      "time": "00:00:06.624",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "BDD Atlas",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 4,
+    "total": 4,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notdefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}
